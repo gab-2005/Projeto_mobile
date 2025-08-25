@@ -14,7 +14,7 @@ import { LogIn, UserPlus } from "lucide-react-native";
 import { SafeAreaView, useSafeAreaInsets } from "react-native-safe-area-context";
 
 const { height } = Dimensions.get("window");
-const NAVBAR_HEIGHT = 120;
+const NAVBAR_HEIGHT = 100;
 
 export default function HomeScreen() {
   const insets = useSafeAreaInsets();
